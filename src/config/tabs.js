@@ -4,10 +4,11 @@ import TypeScriptContent from '../views/TypeScript.vue'
 import JS from '@/views/JS.vue'
 import JSob from '@/views/JSob.vue'
 import JS_Promises from '@/views/JS_Promises.vue'
-import REACT from '@/views/REACT.vue'
 import JSstring from '@/views/JSstring.vue'
 import GIT from '@/views/GIT.vue'
 import Br_storage from '@/views/Br_storage.vue'
+import REACT from '@/views/REACT.vue'
+import VUE_opt from '@/views/VUE_opt.vue'
 
 export const tabs = [
     // {id: 'hr',title: '————————————'},
@@ -54,15 +55,27 @@ export const tabs = [
         title: 'JS - Promises',
         component: JS_Promises,
     },
-    {
-        id: 'REACT',
-        title: 'REACT - ',
-        component: REACT,
-    },
     { id: Math.random().toString(), title: '————————————' },
     {
         id: 'GIT',
         title: 'GIT',
         component: GIT,
+    },
+    
+
+    { id: Math.random().toString(), title: '————————————' },
+
+    {
+        id: 'VUE_opt',
+        title: 'VUE_opt',
+        component: VUE_opt,
+    },
+
+    { id: Math.random().toString(), title: '————————————' },
+
+    {
+        id: 'REACT',
+        title: 'REACT - ',
+        component: REACT,
     },
 ]
